@@ -3,23 +3,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.examen2;
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
-import com.mongodb.MongoClientException;
 import com.mongodb.client.*;
 import com.mongodb.MongoException;
 import com.mongodb.client.result.*;
 import static com.mongodb.client.model.Filters.*;
-import static com.mongodb.client.model.Updates.*;
-import com.mongodb.client.model.ReplaceOptions;
 import org.bson.Document;
 import org.bson.types.ObjectId;
 import org.bson.conversions.Bson;
-import org.bson.json.JsonWriterSettings;
-import java.util.List;
 import javax.swing.JOptionPane;
 
-import java.util.List;
 /**
  *
  * @author m_mur

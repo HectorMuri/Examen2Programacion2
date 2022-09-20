@@ -19,8 +19,8 @@ public class main {
         connM = new conexionDB();
         connM.setDB();
 
-        maquinas formmaquinas = new maquinas();
-        formmaquinas.setVisible(true);
+        Maquinarias formMaquinarias = new Maquinarias();
+        formMaquinarias.setVisible(true);
 
     }
     
