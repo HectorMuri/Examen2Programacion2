@@ -4,17 +4,24 @@
  */
 package com.mycompany.examen2;
 
+    
 /**
  *
  * @author m_mur
  */
 public class main {
-
+    static conexionDB connM;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        connM = new conexionDB();
+        connM.setDB();
+
+        maquinas formmaquinas = new maquinas();
+        formmaquinas.setVisible(true);
+
     }
     
 }
